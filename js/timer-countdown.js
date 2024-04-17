@@ -1,6 +1,7 @@
 (function() {
     // Get the target date from the data-date attribute
     const targetDate = document.getElementById('lgx-countdown').getAttribute('data-date');
+    const targetDateInstance = new Date(targetDate);
 
     // Update the countdown every second
     setInterval(updateCountdown, 1000);
@@ -10,7 +11,7 @@
         const currentDate = new Date().getTime();
 
         // Calculate the difference between the target date and the current date
-        const difference = new Date(targetDate) - currentDate;
+        const difference = targetDateInstance - currentDate;
 
         // Calculate the days, hours, minutes, and seconds remaining
         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
