@@ -7702,7 +7702,7 @@ button:hover:after {
 }
 
 .lgx-banner16 {
-    background: url(../img/banner-new.jpg) top center no-repeat;
+    background: url(../img/midsommar.jpg) top center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -7752,7 +7752,8 @@ button:hover:after {
     font-weight: 300;
     color: #efa506;
     margin: 0;
-    line-height: 7.2rem
+    line-height: 7.2rem;
+    text-shadow: 0 0 15px #000;
 }
 
 .lgx-banner-info .title {
@@ -7763,7 +7764,8 @@ button:hover:after {
     line-height: 12rem;
     font-weight: 700;
     color: #fff;
-    text-transform: uppercase
+    text-transform: uppercase;
+    text-shadow: 0 0 26px #000;
 }
 
 .lgx-banner-info .date,
@@ -7804,7 +7806,8 @@ button:hover:after {
 }
 
 .lgx-banner-info .location {
-    color: #fff
+    color: #fff;
+    text-shadow: 0 0 15px #000;
 }
 
 .lgx-banner-info-circle .info-circle-inner .date span,
