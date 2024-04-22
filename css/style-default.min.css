@@ -12830,33 +12830,6 @@ blockquote.lgx-testi-single:after {
     text-align: center
 }
 
-.lgx-footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    padding-top: 2.4rem;
-    padding-bottom: 4.2rem;
-    text-align: center;
-    color: rgba(255, 255, 255, .5);
-    font-family: Oswald, sans-serif;
-    font-size: 1.4rem;
-    line-height: 2.0999999999999996rem;
-    text-transform: uppercase;
-    font-weight: 400
-}
-
-.lgx-footer-bottom p {
-    font-family: inherit;
-    color: inherit;
-    font-weight: inherit;
-    font-size: inherit;
-    letter-spacing: .08rem
-}
-
-.lgx-footer-bottom p a,
-.lgx-footer-bottom p span {
-    color: #efa506
-}
 
 .lgx-box-layout {
     padding: 0 4.2rem
