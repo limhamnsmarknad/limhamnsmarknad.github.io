@@ -7609,80 +7609,9 @@ button:hover:after {
     }
 }
 
-.lgx-banner {
-    background: url(../img/banner.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-banner .lgx-inner {
     padding: 27rem 0 20rem
-}
-
-.lgx-banner2 {
-    background: url(../img/bannar-home2.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner3 {
-    background: url(../img/banner3.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner4 {
-    background: url(../img/bannar4.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner5 {
-    background: url(../img/banner2.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner6 {
-    background: url(../img/bannar5.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner7 {
-    background: url(../img/bannar6.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner-music {
-    background: url(../img/banner-music.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner12 {
-    background: url(../img/slider1.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
 }
 
 .lgx-banner13 {
@@ -7693,13 +7622,6 @@ button:hover:after {
     background-size: cover
 }
 
-.lgx-banner14 {
-    background: url(../img/banner-new2.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-banner16 {
     background: url(../img/midsommar.jpg) top center no-repeat;
@@ -7709,29 +7631,6 @@ button:hover:after {
     background-size: cover
 }
 
-.lgx-banner-christmas {
-    background: url(../img/banner-christmas.jpg) bottom center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner-comingsoon {
-    background: url(../img/bannar-comingsoon.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-banner-parallax {
-    background: url(../img/parallex-bg.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-banner-info-area {
     display: flex
@@ -7886,13 +7785,7 @@ button:hover:after {
     margin-right: 5rem
 }
 
-.lgx-banner-info-circle .info-circle-inner {
-    background: url(../img/banner-circle.jpg) top center no-repeat;
-    text-align: center;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%
-}
+
 
 .lgx-banner-info-circle .info-circle-inner .date {
     margin-top: 0;
@@ -9103,30 +8996,6 @@ button:hover:after {
     background: #fff
 }
 
-.lgx-about2 {
-    background: url(../img/about-bg.jpg) bottom no-repeat;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
-.lgx-about3 {
-    background: url(../img/about-bg2.jpg) bottom no-repeat;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
-.lgx-about-music {
-    background: url(../img/about-bgmusic.jpg) bottom no-repeat;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
 .lgx-about-img {
     margin-right: 5%
 }
@@ -9357,38 +9226,6 @@ button:hover:after {
 
 .lgx-speakers2 .lgx-inner {
     background: rgba(27, 39, 61, .7)
-}
-
-.lgx-speakers3 {
-    background: url(../img/speakers-bg2.jpg) bottom left no-repeat fixed;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
-.lgx-speakers4 {
-    background: url(../img/speakers-bg-brand.jpg) bottom left no-repeat fixed;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
-.lgx-speakers-christmas {
-    background: url(../img/speakers-christmas-bg.jpg) center center no-repeat fixed;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
-.lgx-speakers-christmas .lgx-inner {
-    background: url(../img/ice-up-ash.png) bottom center repeat-x;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
 }
 
 .lgx-single-speaker {
@@ -9818,13 +9655,7 @@ button:hover:after {
     width: 50%
 }
 
-.lgx-milestone-about {
-    background: url(../img/milestone-bg.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
+
 
 .lgx-milestone-about .lgx-inner {
     background: rgba(85, 75, 185, .9);
@@ -9893,13 +9724,6 @@ button:hover:after {
     background-size: 100% auto, cover
 }
 
-.lgx-schedule2 .lgx-inner {
-    background: url(../img/schedule-bg-pattern2.png) bottom center no-repeat;
-    -webkit-background-size: 100% auto, cover;
-    -o-background-size: 100% auto, cover;
-    -moz-background-size: 100% auto, cover;
-    background-size: 100% auto, cover
-}
 
 .lgx-schedule-black {
     background: #1b273d
@@ -9909,25 +9733,12 @@ button:hover:after {
     background: #f1f1f1
 }
 
-.lgx-schedule-music {
-    background: url(../img/schedule-bgmusic.jpg) top center no-repeat fixed;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
 
 .lgx-schedule-music .lgx-inner {
     background: 0 0
 }
 
-.lgx-schedule-christmas .lgx-inner {
-    background: url(../img/schedule-christmas-pattern.png) bottom center no-repeat;
-    -webkit-background-size: 100% auto, cover;
-    -o-background-size: 100% auto, cover;
-    -moz-background-size: 100% auto, cover;
-    background-size: 100% auto, cover
-}
+
 
 .lgx-tab .nav>li>a:focus,
 .lgx-tab .nav>li>a:hover {
@@ -10401,13 +10212,6 @@ button:hover:after {
     }
 }
 
-.lgx-sponsors {
-    background: url(../img/sponsor-bg.jpg) bottom center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-sponsors .lgx-inner {
     background: rgba(255, 255, 255, .88)
@@ -10844,13 +10648,7 @@ button:hover:after {
     padding: 2rem
 }
 
-.lgx-news-black {
-    background: url(../img/registration-bg.jpg) bottom center no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
+
 
 .lgx-news-black .lgx-inner {
     background: rgba(27, 39, 61, .9)
@@ -10946,13 +10744,6 @@ button:hover:after {
     background: #554bb9
 }
 
-.lgx-registration2 {
-    background: url(../img/registration-bg.jpg) bottom center no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-registration2 .lgx-inner {
     background: rgba(85, 75, 185, .9)
@@ -10962,35 +10753,12 @@ button:hover:after {
     background: #1b273d
 }
 
-.lgx-registration4 {
-    background: url(../img/registration-bg.jpg) bottom center no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-registration4 .lgx-inner {
+. .lgx-registration4 .lgx-inner {
     padding: 0;
     background: rgba(27, 39, 61, .9)
 }
 
-.lgx-registration-christmas {
-    background: url(../img/christmas-video.jpg) center center no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
-.lgx-registration-christmas .lgx-inner {
-    background: url(../img/ice-down-ash.png) top center repeat-x;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover;
-    padding-bottom: 0
-}
 
 .lgx-registration-christmas .lgx-inner .lgx-registration-area {
     position: relative;
@@ -11261,14 +11029,6 @@ button:hover:after {
     background: #efa506
 }
 
-.lgx-registration-area .lgx-single-registration-christmas .lgx-single-registration-inner {
-    padding: 4.2rem 2rem 9rem;
-    background: url(../img/registration-style-christmas.png) bottom center no-repeat;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
 
 .lgx-registration-area .lgx-single-registration-christmas .single-top .title {
     font-size: 2.6rem;
@@ -11434,15 +11194,6 @@ button:hover:after {
     margin-top: -258px
 }
 
-.lgx-registration-form-box {
-    background: url(../img/registrationbox-bg.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    padding: 4.2rem 3rem;
-    text-align: center
-}
 
 .lgx-registration-form-box .title {
     font-size: 4.2rem;
@@ -11507,14 +11258,6 @@ button:hover:after {
     color: #fff
 }
 
-.lgx-registration-simple {
-    background: url(../img/registration-simple-bg.jpg) bottom center no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    text-align: center
-}
 
 .lgx-registration-simple .lgx-inner {
     background: rgba(85, 75, 185, .9)
@@ -11664,25 +11407,13 @@ button:hover:after {
     color: #fff
 }
 
-.lgx-countdowns3 {
-    background: url(../img/banner-bg2.jpg) top center no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
+
 
 .lgx-countdowns3 .lgx-inner {
     background: rgba(85, 75, 185, .9)
 }
 
-.lgx-countdowns4 {
-    background: url(../img/banner-bg2.jpg) top center no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
+
 
 .lgx-countdowns4 .lgx-inner {
     background: #1b273d;
@@ -11965,13 +11696,6 @@ button:hover:after {
     color: #efa506
 }
 
-.lgx-photo-gallery-black {
-    background: url(../img/registration-bg.jpg) bottom center no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-photo-gallery-black .lgx-inner {
     background: rgba(27, 39, 61, .9)
@@ -11981,13 +11705,6 @@ button:hover:after {
     width: 33.33%
 }
 
-.lgx-testimonial {
-    background: url(../img/testi-bg.jpg) bottom center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-testimonial .lgx-inner {
     background: rgba(255, 255, 255, .95)
@@ -12044,19 +11761,6 @@ blockquote.lgx-testi-single:after {
     display: none
 }
 
-blockquote.lgx-testi-single:before {
-    content: "";
-    background: url(../img/quote.png) center left no-repeat;
-    position: absolute;
-    left: 0;
-    top: -1px;
-    right: 0;
-    width: 115px;
-    height: 81px;
-    text-align: center;
-    margin: 0 auto;
-    z-index: 0
-}
 
 .lgx-testi-single .author {
     display: inline-block
@@ -12416,20 +12120,6 @@ blockquote.lgx-testi-single:before {
         display: none
     }
 
-    #lgx-parallax-banner .lgx-section .lgx-item-parallax-banner .leftlayer1 {
-        background-image: url(../img/parallax/pl_mb1.png);
-        background-repeat: no-repeat;
-        position: static;
-        top: auto;
-        right: auto;
-        left: auto;
-        text-align: center;
-        padding: 150px 15%;
-        background-size: 200px;
-        background-position: -100px 100%;
-        width: 100%;
-        margin: 0 auto
-    }
 
     #lgx-parallax-banner .lgx-section .lgx-item-parallax-banner .leftlayer1 .banner-content a.paramore {
         margin-top: 50px;
@@ -12517,38 +12207,17 @@ blockquote.lgx-testi-single:before {
     }
 }
 
-.lgx-video {
-    background: url(../img/video-bg.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-video .lgx-inner {
     background: rgba(27, 39, 61, .8);
     padding: 20rem 0 28rem
 }
 
-.lgx-video2 {
-    background: url(../img/milestone-bg.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-video2 .lgx-inner {
     background: rgba(85, 75, 185, .8)
 }
 
-.lgx-video-christmas {
-    background: url(../img/christmas-video.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-video-christmas .lgx-inner {
     background: rgba(85, 75, 185, .5)
@@ -12733,37 +12402,6 @@ blockquote.lgx-testi-single:before {
     margin-top: 2.6rem
 }
 
-.lgx-leftright-area .lgx-venu-img {
-    background: url(../img/travelinfo1.jpg) center center no-repeat;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
-.lgx-leftright-area .lgx-transport-img {
-    background: url(../img/travelinfo2.jpg) center center no-repeat;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
-.lgx-leftright-area .lgx-hotel-img {
-    background: url(../img/travelinfo3.jpg) center center no-repeat;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
-
-.lgx-travelinfo-christmas .lgx-inner {
-    background: url(../img/ice-up-brand.png) bottom center repeat-x;
-    -webkit-background-size: auto auto, cover;
-    -o-background-size: auto auto, cover;
-    -moz-background-size: auto auto, cover;
-    background-size: auto auto, cover
-}
 
 .lgx-footer-single #instafeed a {
     overflow: hidden;
@@ -12913,21 +12551,6 @@ blockquote.lgx-testi-single:before {
     opacity: 1
 }
 
-.lgx-subscriber-area-indiv {
-    background: url(../img/subscribe-bg.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
-
-.lgx-subscriber-area-black {
-    background: url(../img/subscribe-bg-black.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .subscriber-title {
     color: #fff;
@@ -12996,25 +12619,11 @@ blockquote.lgx-testi-single:before {
     background: rgba(85, 75, 185, .95)
 }
 
-.lgx-footer-music {
-    background: url(../img/footer-bgmusic.jpg) bottom center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-footer-black .lgx-inner-footer {
     background: rgba(27, 39, 61, .95)
 }
 
-.lgx-footer-christmas {
-    background: url(../img/footer-christmas.jpg) bottom center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-footer-christmas .lgx-inner-footer {
     background: 0 0
@@ -13266,13 +12875,6 @@ blockquote.lgx-testi-single:before {
     padding: 17rem 0 9rem
 }
 
-.lgx-banner-inner {
-    background: url(../img/banner-inner2.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
-}
 
 .lgx-banner-inner .lgx-heading-area {
     margin-bottom: 0
