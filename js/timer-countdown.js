@@ -20,9 +20,9 @@
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
         // Update the countdown element with the remaining time
-        document.getElementsByClassName('lgx-day')[0].innerHTML = days + ' <i> Dag </i>';
-        document.getElementsByClassName('lgx-hr')[0].innerHTML = hours + ' <i> Tim </i>';
-        document.getElementsByClassName('lgx-min')[0].innerHTML = minutes + ' <i> Min </i>';
-        document.getElementsByClassName('lgx-sec')[0].innerHTML = seconds + ' <i> Sek </i>';
+        //document.getElementsByClassName('lgx-day')[0].innerHTML = days + ' <i> Dag </i>';
+        //document.getElementsByClassName('lgx-hr')[0].innerHTML = hours + ' <i> Tim </i>';
+        //document.getElementsByClassName('lgx-min')[0].innerHTML = minutes + ' <i> Min </i>';
+        //document.getElementsByClassName('lgx-sec')[0].innerHTML = seconds + ' <i> Sek </i>';
     }
 })();
