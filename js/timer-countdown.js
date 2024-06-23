@@ -19,10 +19,12 @@
         const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-        // Update the countdown element with the remaining time
-        //document.getElementsByClassName('lgx-day')[0].innerHTML = days + ' <i> Dag </i>';
-        //document.getElementsByClassName('lgx-hr')[0].innerHTML = hours + ' <i> Tim </i>';
-        //document.getElementsByClassName('lgx-min')[0].innerHTML = minutes + ' <i> Min </i>';
-        //document.getElementsByClassName('lgx-sec')[0].innerHTML = seconds + ' <i> Sek </i>';
+        if (days >= 0) {
+            // Update the countdown element with the remaining time
+            document.getElementsByClassName('lgx-day')[0].innerHTML = days.toString().padStart(2, '0') + ' <i> Dag </i>';
+            document.getElementsByClassName('lgx-hr')[0].innerHTML = hours.toString().padStart(2, '0') + ' <i> Tim </i>';
+            document.getElementsByClassName('lgx-min')[0].innerHTML = minutes.toString().padStart(2, '0') + ' <i> Min </i>';
+            document.getElementsByClassName('lgx-sec')[0].innerHTML = seconds.toString().padStart(2, '0') + ' <i> Sek </i>';
+        }
     }
 })();
