@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Limhamns Marknad</title>
+    <meta name="description" content="Limhamns Marknad, Midsommarhelgen 19-21 Juni 2026">
+    <meta name="keywords" content="Marknad, Event, Limhamn, Sibbarp">
+
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" media="all">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="css/magnific-popup.css" media="all">
+
+    <!-- Time Circle -->
+    <link rel="stylesheet" href="css/TimeCircles.css" media="all">
+
+    <!-- GOOGLE FONT -->
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+
+    <!-- MASTER  STYLESHEET  -->
+    <link id="lgx-master-style" rel="stylesheet" href="css/style-default.min.css" media="all">
+
+    <!-- MODERNIZER CSS  -->
+    <script src="js/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="css/demo-themeoptions.css" media="all">
+</head>
+
+<body class="home">
+    <section id="platsansokan" class="lgx-schedule lgx-schedule-white" style="padding:60px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="lgx-heading" style="margin-bottom:25px;">
+                        <h2 class="heading">Platsansökan och Priser</h2>
+                        <h3 class="subheading">Ansökningsformulär</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Formulär -->
+                <div class="col-md-8">
+                    <div class="panel panel-default"
+                        style="border:none; box-shadow:0 6px 20px rgba(0,0,0,.08); border-radius:12px;">
+                        <div class="panel-body" style="padding:25px;">
+                            <form id="marknad-form" action="https://limhamnsmarknad-skicka-mail.jonas-lewin.workers.dev/submit" method="POST">
+                                <div class="row">
+                                    <div class="col-sm-6 foretagsnamn">
+                                        <div class="form-group">
+                                            <label for="foretagsnamn">Företagsnamn</label>
+                                            <input type="text" class="form-control" id="foretagsnamn"
+                                                name="foretagsnamn" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 hemsida">
+                                        <div class="form-group">
+                                            <label for="hemsida">Hemsida</label>
+                                            <input type="text" class="form-control" id="hemsida" name="hemsida"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 kontaktperson">
+                                        <div class="form-group">
+                                            <label for="kontaktperson">Kontaktperson</label>
+                                            <input type="text" class="form-control" id="kontaktperson"
+                                                name="kontaktperson" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 epost">
+                                        <div class="form-group">
+                                            <label for="epost">E-postadress</label>
+                                            <input type="email" class="form-control" id="epost" name="epost"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 telefon">
+                                        <div class="form-group">
+                                            <label for="telefon">Telefonnummer</label>
+                                            <input type="tel" class="form-control" id="telefon" name="telefon"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 sortiment">
+                                        <div class="form-group">
+                                            <label for="sortiment">Sortiment</label>
+                                            <input type="text" class="form-control" id="sortiment" name="sortiment"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 antalmeter">
+                                        <div class="form-group">
+                                            <label for="antalmeter">Antal meter (en plats är 3 m)</label>
+                                            <input type="number" class="form-control" id="antalmeter" name="antalmeter"
+                                                min="3" step="3" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 orgnr">
+                                        <div class="form-group">
+                                            <label for="orgnr">Org.nr/Personnummer</label>
+                                            <input type="text" class="form-control" id="orgnr" name="orgnr"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 el">
+                                        <div class="form-group">
+                                            <label for="el">Är du i behov av el och hur många ampere?</label>
+                                            <input type="text" class="form-control" id="el" name="el" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 forslag">
+                                        <div class="form-group">
+                                            <label for="forslag">Har du har några förslag till förbättringar för
+                                                Limhamnsmarknad?</label>
+                                            <textarea class="form-control" id="forslag" name="forslag"
+                                                rows="2"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 ovrigt">
+                                        <div class="form-group">
+                                            <label for="ovrigt">Övrigt</label>
+                                            <textarea class="form-control" id="ovrigt" name="ovrigt"
+                                                rows="2"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+                                    <div class="cf-turnstile" data-sitekey="0x4AAAAAABxzzFRT8kF4Hpvr"></div>
+
+                                    <div class="col-sm-12">
+                                        <button type="submit" class="btn btn-default btn-lg"
+                                            style="background:#a1866f; color:#fff; border:none; border-radius:30px; padding:12px 28px;">
+                                            Skicka anmälan
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+
+    <!-- SKILLS SCRIPT  -->
+    <script src="js/jquery.validate.js"></script>
+
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- SMOTH SCROLL -->
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- type js -->
+    <script src="js/typed.min.js"></script>
+
+    <!-- header parallax js -->
+    <script src="js/header-parallax.js"></script>
+
+    <script src="js/timer-countdown.js"></script>
+
+</body>
+
+</html>
