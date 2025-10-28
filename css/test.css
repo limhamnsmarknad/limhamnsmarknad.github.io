@@ -361,3 +361,24 @@
 .hemsida {
   display: none;
 }
+/* Top-right apply link positioning */
+.apply-link-top {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.apply-link-wrapper {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .apply-link-top {
+    top: 10px;
+    right: 10px;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}
