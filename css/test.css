@@ -361,23 +361,29 @@
 .hemsida {
   display: none;
 }
-/* Top-left apply link positioning */
-.apply-link-top {
-  position: absolute;
+/* Top-center apply link positioning */
+.apply-link-wrapper {
+  position: fixed;
   top: 15px;
-  left: 15px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   z-index: 1000;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  pointer-events: none; /* let the wrapper stay transparent while the button remains clickable */
 }
 
-.apply-link-wrapper {
+.apply-link-top {
   position: relative;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  pointer-events: auto;
 }
 
 @media (max-width: 767px) {
-  .apply-link-top {
+  .apply-link-wrapper {
     top: 10px;
-    left: 10px;
+  }
+  .apply-link-top {
     padding: 10px 14px;
     font-size: 14px;
   }
